@@ -14,4 +14,7 @@
     .wrapper .button:hover{
      width: 60px;
     }
+    .todo-app{
+        padding: 20px 30px 30px;
+    }
 }
