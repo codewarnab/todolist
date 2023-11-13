@@ -1,0 +1,17 @@
+@media screen and (max-width:425px){
+    .container{
+        overflow: hidden;
+    }
+    button{
+        padding: 12px 30px;
+    }
+    .wrapper .button{
+        background-color: transparent;
+        margin: 0;
+        box-shadow: none;
+
+    }
+    .wrapper .button:hover{
+     width: 60px;
+    }
+}

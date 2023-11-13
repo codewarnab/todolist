@@ -4,7 +4,9 @@
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
 }
-
+html,body{
+    place-items: center;
+}
 .container {
     padding: 20px;
     width: 100%;
@@ -52,6 +54,7 @@ input {
     background: transparent;
     padding: 10px;
     font-weight: 455;
+    font-family: cursive;
 
 }
 
@@ -116,5 +119,98 @@ ul li span:hover{
 button:hover {
     background: #f5412e;
     box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.3);
+
+}
+/* social-media-buttons-section */
+.wrapper{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #2AABEE;
+}
+.wrapper .button:nth-child(6):hover .icon{
+  background: #0a66c2;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #2AABEE;
+}
+.wrapper .button:nth-child(6) span{
+  color: #0a66c2;
+}
+.button a {
+  text-decoration: none;
+  color: inherit; 
 
 }
