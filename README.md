@@ -2,7 +2,7 @@
 
 ![To-Do List Screenshot](https://i.imgur.com/dtJFXri.jpg)
 
-This is a simple and user-friendly to-do list web application that helps you keep track of your tasks and stay organized. You can access the live demo [here](https://blacknut1803.github.io/todolist/).
+This is a simple and user-friendly to-do list web application that helps you keep track of your tasks and stay organized. You can access the live demo [here](https://codewarnab.github.io/todolist/).
 
 ## Features
 
@@ -18,7 +18,7 @@ This is a simple and user-friendly to-do list web application that helps you kee
 
 To use the to-do list application, follow these steps:
 
-1. Open the [live demo](https://blacknut1803.github.io/todolist/) in your web browser.
+1. Open the [live demo](https://codewarnab.github.io/todolist/) in your web browser.
 
 2. Start adding tasks by typing in the task description and clicking "Add."
 
@@ -32,7 +32,7 @@ If you'd like to contribute to this project, feel free to submit issues or pull 
 
 ## Author
 
-- [Arnab Mondal](https://github.com/blacknut1803)
+- [Arnab Mondal](https://github.com/codewarnab)
 
 
 
